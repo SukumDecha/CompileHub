@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CompileHub
 
-## Getting Started
+**CompileHub** is a powerful online platform that allows users to compile and run code in any programming language directly from their browser. 
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Multi-Language Support:** Compile and run code in a wide range of programming languages.
+- **Monaco Editor Integration:** Enjoy a rich code editing experience with syntax highlighting, IntelliSense, and error detection.
+- **Theme Customization:** Switch between light and dark modes with ease using next-themes.
+- **Real-Time Compilation:** Get instant feedback on your code using the Piston API for real-time compilation and output.
+- **Responsive Design:** Optimized for all devices, ensuring a smooth experience on desktop, tablet, and mobile.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **[Next.js](https://nextjs.org/):** A React framework that enables server-side rendering and static site generation.
+- **[shadcn](https://shadcn.dev/):** A collection of styled components for building elegant and accessible user interfaces.
+- **[Monaco Editor](https://microsoft.github.io/monaco-editor/):** The code editor that powers Visual Studio Code, providing a top-notch coding experience.
+- **[next-themes](https://github.com/pacocoursey/next-themes):** A lightweight library for implementing dark mode and theme switching in Next.js.
+- **[Piston API](https://piston.readthedocs.io/):** A powerful API for compiling and running code in various programming languages.
